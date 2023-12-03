@@ -3,7 +3,7 @@ import java.nio.file.*;
 class Main {
   public static void main(String[] args) {
    //System.out.println(Day1.partOne.sumOfAllCalibrationValues());
-   System.out.println(Day2.partTwo.getSumOfAllGames());
+   System.out.println(Day3.partOne.getSumOfAllGames());
     
 
     
