@@ -88,7 +88,7 @@ int sum = 0;
                     int newIndex = -1;
                     int oldIndex = -1;
                     String[] splits = input.get(rowIndex).split("[-.;:#*!$=/@%-&+]");
-                    //System.out.println(splits.length);
+                    System.out.println(splits.length);
                     for (int z = 0; z < splits.length; z++) {
                         //System.out.println(splits[z]);
                         oldIndex = newIndex;
