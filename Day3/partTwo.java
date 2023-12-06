@@ -38,6 +38,8 @@ int sum = 0;
                 ArrayList<Integer> digitIndex = new ArrayList<>();
                 ArrayList<Integer> digitRow = new ArrayList<>();
 
+                //Just like PEMDAS, order matters
+
                 //Down
                 if (!(rowIndex+1 > input.size()-1)) {
                     if (Character.isDigit(input.get(rowIndex+1).charAt(charIndex))) {
@@ -229,6 +231,7 @@ int sum = 0;
                                 
                                 //counter++;
                             }
+                            //I have no idea why this counter would be needed, but it makes the program work so...
                             counter++;
                         }
                         //;System.out.println(counter);
